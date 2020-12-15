@@ -34,7 +34,8 @@ Sample Input/Output:
 HTTPSERVER Details
 
 Server Machine IP : remote02.cs.binghamton.edu
-Server connection Port number: 8080
+Server connection Port number : 8080
+
 ==========================================================
 Starting HTTP server..
 
