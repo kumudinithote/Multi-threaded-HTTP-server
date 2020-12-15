@@ -31,33 +31,32 @@ Sample Input/Output:
 
 1. Start the Server
 
-HTTPSERVER Details
+    HTTPSERVER Details
 
-Server Machine IP : remote02.cs.binghamton.edu
-Server connection Port number : 8080
+    Server Machine IP : remote02.cs.binghamton.edu
+    Server connection Port number : 8080
 
-==========================================================
-Starting HTTP server..
+=======Starting HTTP server================
 
 2. run the Wget command on client to get the resource.
 
-  wget http://remote02.cs.binghamton.edu:8080/syllabus.pdf
+    wget http://remote02.cs.binghamton.edu:8080/syllabus.pdf
 
 3. If the input is executed then at server side we will get the following result
 
-HTTP/1.0 200 OK
-Date: Tue, 29 Sep 2020 06:19:22 GMT
-Server: HTTP server/0.1
-Last-Modified: Wed, 2 Sep 2020 22:12:24 GMT
-Content-type: application/pdf
-Content-Length: 115828
+    HTTP/1.0 200 OK
+    Date: Tue, 29 Sep 2020 06:19:22 GMT
+    Server: HTTP server/0.1
+    Last-Modified: Wed, 2 Sep 2020 22:12:24 GMT
+    Content-type: application/pdf
+    Content-Length: 115828
 
 
-syllabus.pdf | 128.226.114.203 | 33800 | 1
+    syllabus.pdf | 128.226.114.203 | 33800 | 1
 
 4. If Incorrect resource is given to the server then it will show error DemoMessage
-Input:  wget http://remote02.cs.binghamton.edu:8080/syllabus.pd
-Output: syllabus.pd not found, this throws error 404..
+    Input:  wget http://remote02.cs.binghamton.edu:8080/syllabus.pd
+    Output: syllabus.pd not found, this throws error 404..
 
 5. If file is not found then 404 Not Found error is shown at client side.
 
